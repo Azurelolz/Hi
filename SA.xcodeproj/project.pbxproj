@@ -25,9 +25,6 @@
 		747D90501FF7AFAC003E8742 /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D904F1FF7AFAC003E8742 /* DoneViewController.swift */; };
 		749E5A931FFA6D230030F6E6 /* AttractionsIntroduceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749E5A921FFA6D230030F6E6 /* AttractionsIntroduceViewController.swift */; };
 		749E5A951FFA6D3B0030F6E6 /* FoodIntroduceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749E5A941FFA6D3B0030F6E6 /* FoodIntroduceViewController.swift */; };
-		74A7B3881FFD2D5000AE8AB5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74A7B3871FFD2D5000AE8AB5 /* GoogleService-Info.plist */; };
-		74A7B3891FFD2D5000AE8AB5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74A7B3871FFD2D5000AE8AB5 /* GoogleService-Info.plist */; };
-		74A7B38A1FFD2D5000AE8AB5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74A7B3871FFD2D5000AE8AB5 /* GoogleService-Info.plist */; };
 		74AD62C11FF7934200FA686B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD62C01FF7934200FA686B /* AppDelegate.swift */; };
 		74AD62C31FF7934200FA686B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD62C21FF7934200FA686B /* ViewController.swift */; };
 		74AD62C61FF7934200FA686B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AD62C41FF7934200FA686B /* Main.storyboard */; };
@@ -75,7 +72,6 @@
 		747D904F1FF7AFAC003E8742 /* DoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
 		749E5A921FFA6D230030F6E6 /* AttractionsIntroduceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionsIntroduceViewController.swift; sourceTree = "<group>"; };
 		749E5A941FFA6D3B0030F6E6 /* FoodIntroduceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodIntroduceViewController.swift; sourceTree = "<group>"; };
-		74A7B3871FFD2D5000AE8AB5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		74AD62BD1FF7934200FA686B /* SA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AD62C01FF7934200FA686B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74AD62C21FF7934200FA686B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -169,7 +165,6 @@
 				747D90491FF7AF33003E8742 /* HotScheduleViewController.swift */,
 				747D904B1FF7AF54003E8742 /* HotScheduleCityViewController.swift */,
 				747D904D1FF7AF73003E8742 /* ScheduleIntroduceViewController.swift */,
-				74A7B3871FFD2D5000AE8AB5 /* GoogleService-Info.plist */,
 			);
 			path = SA;
 			sourceTree = "<group>";
@@ -332,7 +327,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				74AD62CB1FF7934200FA686B /* LaunchScreen.storyboard in Resources */,
-				74A7B3881FFD2D5000AE8AB5 /* GoogleService-Info.plist in Resources */,
 				74AD62C81FF7934200FA686B /* Assets.xcassets in Resources */,
 				74AD62C61FF7934200FA686B /* Main.storyboard in Resources */,
 			);
@@ -342,7 +336,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A7B3891FFD2D5000AE8AB5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +343,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A7B38A1FFD2D5000AE8AB5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
