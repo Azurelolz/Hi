@@ -21,6 +21,12 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func showMessage() {
+        let alertController = UIAlertController(title: "Welcome to Travelers", message: "準備好了嗎？", preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "開始旅程", style: UIAlertActionStyle.default, handler: nil))
+        present(alertController, animated: true, completion: nil)
+    }
+    
 
     /*
     // MARK: - Navigation
