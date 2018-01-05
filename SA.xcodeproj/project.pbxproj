@@ -10,6 +10,9 @@
 		2BA21B6ED1192F49D7A10172 /* Pods_SAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D19054C3BE7FD1F4D38CE61 /* Pods_SAUITests.framework */; };
 		42C63D397B2F94C80B7D7106 /* Pods_SA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF664472E60A7BFA4FBE4AE7 /* Pods_SA.framework */; };
 		67138F6E3368D0A963559921 /* Pods_SATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE6ADC6AE272E752C3DCDF8 /* Pods_SATests.framework */; };
+		74581A601FFD4DD200210986 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74581A5F1FFD4DD200210986 /* GoogleService-Info.plist */; };
+		74581A611FFD4DD200210986 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74581A5F1FFD4DD200210986 /* GoogleService-Info.plist */; };
+		74581A621FFD4DD200210986 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74581A5F1FFD4DD200210986 /* GoogleService-Info.plist */; };
 		747D90381FF7AD7D003E8742 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D90371FF7AD7D003E8742 /* LoginViewController.swift */; };
 		747D903A1FF7ADAD003E8742 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D90391FF7ADAD003E8742 /* RegisterViewController.swift */; };
 		747D903C1FF7ADE4003E8742 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D903B1FF7ADE4003E8742 /* MainViewController.swift */; };
@@ -60,6 +63,7 @@
 		263AA342C1B03CD7CE59B257 /* Pods-SATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SATests/Pods-SATests.debug.xcconfig"; sourceTree = "<group>"; };
 		5733A857C84E24325730A609 /* Pods-SATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SATests/Pods-SATests.release.xcconfig"; sourceTree = "<group>"; };
 		704E35691FE62001C6CAA44D /* Pods-SA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SA/Pods-SA.debug.xcconfig"; sourceTree = "<group>"; };
+		74581A5F1FFD4DD200210986 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		747D90371FF7AD7D003E8742 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		747D90391FF7ADAD003E8742 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		747D903B1FF7ADE4003E8742 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
