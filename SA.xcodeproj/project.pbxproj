@@ -10,9 +10,6 @@
 		2BA21B6ED1192F49D7A10172 /* Pods_SAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D19054C3BE7FD1F4D38CE61 /* Pods_SAUITests.framework */; };
 		42C63D397B2F94C80B7D7106 /* Pods_SA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF664472E60A7BFA4FBE4AE7 /* Pods_SA.framework */; };
 		67138F6E3368D0A963559921 /* Pods_SATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE6ADC6AE272E752C3DCDF8 /* Pods_SATests.framework */; };
-		74581A601FFD4DD200210986 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74581A5F1FFD4DD200210986 /* GoogleService-Info.plist */; };
-		74581A611FFD4DD200210986 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74581A5F1FFD4DD200210986 /* GoogleService-Info.plist */; };
-		74581A621FFD4DD200210986 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74581A5F1FFD4DD200210986 /* GoogleService-Info.plist */; };
 		747D90381FF7AD7D003E8742 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D90371FF7AD7D003E8742 /* LoginViewController.swift */; };
 		747D903A1FF7ADAD003E8742 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D90391FF7ADAD003E8742 /* RegisterViewController.swift */; };
 		747D903C1FF7ADE4003E8742 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D903B1FF7ADE4003E8742 /* MainViewController.swift */; };
@@ -22,8 +19,6 @@
 		747D90441FF7AE99003E8742 /* AttractionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D90431FF7AE99003E8742 /* AttractionsViewController.swift */; };
 		747D90461FF7AEB5003E8742 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D90451FF7AEB5003E8742 /* FoodViewController.swift */; };
 		747D90481FF7AEEC003E8742 /* MyScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D90471FF7AEEC003E8742 /* MyScheduleViewController.swift */; };
-		747D904A1FF7AF33003E8742 /* HotScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D90491FF7AF33003E8742 /* HotScheduleViewController.swift */; };
-		747D904C1FF7AF54003E8742 /* HotScheduleCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D904B1FF7AF54003E8742 /* HotScheduleCityViewController.swift */; };
 		747D904E1FF7AF73003E8742 /* ScheduleIntroduceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D904D1FF7AF73003E8742 /* ScheduleIntroduceViewController.swift */; };
 		747D90501FF7AFAC003E8742 /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D904F1FF7AFAC003E8742 /* DoneViewController.swift */; };
 		749E5A931FFA6D230030F6E6 /* AttractionsIntroduceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749E5A921FFA6D230030F6E6 /* AttractionsIntroduceViewController.swift */; };
@@ -38,6 +33,7 @@
 		FEE8EA871FFD56F8000BCC53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */; };
 		FEE8EA881FFD56F8000BCC53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */; };
 		FEE8EA891FFD56F8000BCC53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */; };
+		FEE8EA8F20000213000BCC53 /* HotScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE8EA8E20000213000BCC53 /* HotScheduleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +59,6 @@
 		263AA342C1B03CD7CE59B257 /* Pods-SATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SATests/Pods-SATests.debug.xcconfig"; sourceTree = "<group>"; };
 		5733A857C84E24325730A609 /* Pods-SATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SATests/Pods-SATests.release.xcconfig"; sourceTree = "<group>"; };
 		704E35691FE62001C6CAA44D /* Pods-SA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SA/Pods-SA.debug.xcconfig"; sourceTree = "<group>"; };
-		74581A5F1FFD4DD200210986 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		747D90371FF7AD7D003E8742 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		747D90391FF7ADAD003E8742 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		747D903B1FF7ADE4003E8742 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -73,8 +68,6 @@
 		747D90431FF7AE99003E8742 /* AttractionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionsViewController.swift; sourceTree = "<group>"; };
 		747D90451FF7AEB5003E8742 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		747D90471FF7AEEC003E8742 /* MyScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScheduleViewController.swift; sourceTree = "<group>"; };
-		747D90491FF7AF33003E8742 /* HotScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotScheduleViewController.swift; sourceTree = "<group>"; };
-		747D904B1FF7AF54003E8742 /* HotScheduleCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotScheduleCityViewController.swift; sourceTree = "<group>"; };
 		747D904D1FF7AF73003E8742 /* ScheduleIntroduceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleIntroduceViewController.swift; sourceTree = "<group>"; };
 		747D904F1FF7AFAC003E8742 /* DoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
 		749E5A921FFA6D230030F6E6 /* AttractionsIntroduceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionsIntroduceViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +89,7 @@
 		D66BC77D85731B8F09896A05 /* Pods-SA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SA.release.xcconfig"; path = "Pods/Target Support Files/Pods-SA/Pods-SA.release.xcconfig"; sourceTree = "<group>"; };
 		DDE6ADC6AE272E752C3DCDF8 /* Pods_SATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FEE8EA8E20000213000BCC53 /* HotScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotScheduleViewController.swift; sourceTree = "<group>"; };
 		FF664472E60A7BFA4FBE4AE7 /* Pods_SA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -170,10 +164,9 @@
 				749E5A941FFA6D3B0030F6E6 /* FoodIntroduceViewController.swift */,
 				747D904F1FF7AFAC003E8742 /* DoneViewController.swift */,
 				747D90471FF7AEEC003E8742 /* MyScheduleViewController.swift */,
-				747D90491FF7AF33003E8742 /* HotScheduleViewController.swift */,
-				747D904B1FF7AF54003E8742 /* HotScheduleCityViewController.swift */,
 				747D904D1FF7AF73003E8742 /* ScheduleIntroduceViewController.swift */,
 				FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */,
+				FEE8EA8E20000213000BCC53 /* HotScheduleViewController.swift */,
 			);
 			path = SA;
 			sourceTree = "<group>";
@@ -517,14 +510,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE8EA8F20000213000BCC53 /* HotScheduleViewController.swift in Sources */,
 				747D90441FF7AE99003E8742 /* AttractionsViewController.swift in Sources */,
 				747D90501FF7AFAC003E8742 /* DoneViewController.swift in Sources */,
-				747D904A1FF7AF33003E8742 /* HotScheduleViewController.swift in Sources */,
 				747D90381FF7AD7D003E8742 /* LoginViewController.swift in Sources */,
 				747D904E1FF7AF73003E8742 /* ScheduleIntroduceViewController.swift in Sources */,
 				747D90421FF7AE4C003E8742 /* StartViewController.swift in Sources */,
 				74AD62C31FF7934200FA686B /* ViewController.swift in Sources */,
-				747D904C1FF7AF54003E8742 /* HotScheduleCityViewController.swift in Sources */,
 				747D90401FF7AE31003E8742 /* DateViewController.swift in Sources */,
 				74AD62C11FF7934200FA686B /* AppDelegate.swift in Sources */,
 				747D90461FF7AEB5003E8742 /* FoodViewController.swift in Sources */,

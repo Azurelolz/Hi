@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -650,212 +649,57 @@
                                 <rect key="frame" x="0.0" y="542" width="154" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="k0Z-Gs-yaL">
-                                <rect key="frame" x="16" y="120" width="343" height="50"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2St-Gz-RaV">
+                                <rect key="frame" x="113" y="134" width="148" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wco-NY-WFz">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
-                                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="請選擇區域" borderStyle="roundedRect" textAlignment="center" minimumFontSize="32" translatesAutoresizingMaskIntoConstraints="NO" id="xzx-1a-S0z">
+                                        <rect key="frame" x="0.0" y="0.0" width="148" height="34"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wW-I3-lZX">
+                                        <rect key="frame" x="0.0" y="34" width="148" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="G8a-hD-zGi"/>
+                                            <constraint firstAttribute="height" constant="50" id="snu-aZ-9jR"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                        <state key="normal" title="請選擇一個區域">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="handleSelection:" destination="xkr-jh-iQE" eventType="touchUpInside" id="hdH-YG-6zc"/>
-                                        </connections>
-                                    </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Me-db-Vna">
-                                        <rect key="frame" x="0.0" y="-120" width="343" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="dKd-Bx-JSH"/>
-                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="北部"/>
-                                        <connections>
-                                            <action selector="cityTapped:" destination="xkr-jh-iQE" eventType="touchUpInside" id="fVG-zl-qa0"/>
-                                        </connections>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQ5-yr-OX4">
-                                        <rect key="frame" x="0.0" y="-120" width="343" height="50"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGs-Lj-52b">
+                                        <rect key="frame" x="0.0" y="84" width="148" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="8hJ-UU-EaV"/>
+                                            <constraint firstAttribute="height" constant="50" id="hhA-Wm-16P"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="中部"/>
-                                        <connections>
-                                            <action selector="cityTapped:" destination="xkr-jh-iQE" eventType="touchUpInside" id="rzK-3Z-jYp"/>
-                                        </connections>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Iw-0E-cxu">
-                                        <rect key="frame" x="0.0" y="-120" width="343" height="50"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zb9-Je-NE3">
+                                        <rect key="frame" x="0.0" y="134" width="148" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="282-cG-65b"/>
+                                            <constraint firstAttribute="height" constant="50" id="oKF-FU-pSv"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="南部"/>
-                                        <connections>
-                                            <action selector="cityTapped:" destination="xkr-jh-iQE" eventType="touchUpInside" id="thX-wk-1ox"/>
-                                        </connections>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAX-JA-7aX">
-                                        <rect key="frame" x="0.0" y="-120" width="343" height="50"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWL-52-7bO">
+                                        <rect key="frame" x="0.0" y="184" width="148" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="Lgi-zv-rkX"/>
+                                            <constraint firstAttribute="height" constant="50" id="thT-3d-lcn"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="東部"/>
-                                        <connections>
-                                            <action selector="cityTapped:" destination="xkr-jh-iQE" eventType="touchUpInside" id="MhX-4W-Lgg"/>
-                                        </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="VAX-JA-7aX" secondAttribute="trailing" id="0gU-yh-UVS"/>
-                                    <constraint firstItem="VAX-JA-7aX" firstAttribute="leading" secondItem="k0Z-Gs-yaL" secondAttribute="leading" id="4Fb-De-PTF"/>
-                                    <constraint firstAttribute="trailing" secondItem="mQ5-yr-OX4" secondAttribute="trailing" id="6g7-ix-kGM"/>
-                                    <constraint firstItem="9Iw-0E-cxu" firstAttribute="leading" secondItem="k0Z-Gs-yaL" secondAttribute="leading" id="F1A-yS-bCK"/>
-                                    <constraint firstItem="7Me-db-Vna" firstAttribute="leading" secondItem="k0Z-Gs-yaL" secondAttribute="leading" id="WHn-TH-7Uk"/>
-                                    <constraint firstAttribute="trailing" secondItem="7Me-db-Vna" secondAttribute="trailing" id="da7-7a-W9Y"/>
-                                    <constraint firstAttribute="trailing" secondItem="9Iw-0E-cxu" secondAttribute="trailing" id="dlV-Bu-9jz"/>
-                                    <constraint firstAttribute="trailing" secondItem="wco-NY-WFz" secondAttribute="trailing" id="it5-Dm-B44"/>
-                                    <constraint firstItem="wco-NY-WFz" firstAttribute="leading" secondItem="k0Z-Gs-yaL" secondAttribute="leading" id="nVO-hC-HEt"/>
-                                    <constraint firstItem="mQ5-yr-OX4" firstAttribute="leading" secondItem="k0Z-Gs-yaL" secondAttribute="leading" id="rf4-q1-kbV"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="k0Z-Gs-yaL" firstAttribute="leading" secondItem="AEq-Ze-JWf" secondAttribute="leadingMargin" id="G7r-Og-Lgf"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="k0Z-Gs-yaL" secondAttribute="trailing" id="Wev-oS-7vg"/>
-                            <constraint firstItem="k0Z-Gs-yaL" firstAttribute="top" secondItem="6o9-Dn-KQX" secondAttribute="bottom" constant="100" id="q9X-M5-9tc"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outletCollection property="cityButtons" destination="7Me-db-Vna" collectionClass="NSMutableArray" id="ubj-v2-agz"/>
-                        <outletCollection property="cityButtons" destination="mQ5-yr-OX4" collectionClass="NSMutableArray" id="Cvm-JX-2n9"/>
-                        <outletCollection property="cityButtons" destination="9Iw-0E-cxu" collectionClass="NSMutableArray" id="1V9-If-Sei"/>
-                        <outletCollection property="cityButtons" destination="VAX-JA-7aX" collectionClass="NSMutableArray" id="HvU-Q0-Fue"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gId-2e-YTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2096.8000000000002" y="582.45877061469275"/>
-        </scene>
-        <!--熱門行程瀏覽(依縣市）-->
-        <scene sceneID="7BG-rE-eB4">
-            <objects>
-                <viewController title="熱門行程瀏覽(依縣市）" id="AMr-tl-OgR" customClass="HotScheduleCityViewController" customModule="SA" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="1nL-PP-adD"/>
-                        <viewControllerLayoutGuide type="bottom" id="Mgh-Cc-z6S"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Boc-gS-D1q">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MpZ-az-bWL">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Fzf-Gq-9lB">
-                                    <size key="itemSize" width="50" height="50"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="P2q-aQ-1lF">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                        <size key="customSize" width="100" height="100"/>
-                                        <connections>
-                                            <segue destination="fsc-nO-cix" kind="show" id="iQa-jy-EJI"/>
-                                        </connections>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="7nk-oW-lrV">
-                                        <rect key="frame" x="137.5" y="0.0" width="100" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                        <size key="customSize" width="100" height="100"/>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="b6M-9r-PY9">
-                                        <rect key="frame" x="275" y="0.0" width="100" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                        <size key="customSize" width="100" height="100"/>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="u3r-zi-Qh5">
-                                        <rect key="frame" x="0.0" y="110" width="100" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                        <size key="customSize" width="100" height="100"/>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="hy2-dU-kQr">
-                                        <rect key="frame" x="137.5" y="110" width="100" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                        <size key="customSize" width="100" height="100"/>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="XR9-BN-mK6">
-                                        <rect key="frame" x="275" y="110" width="100" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                        <size key="customSize" width="100" height="100"/>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="NFb-1d-OQl">
-                                        <rect key="frame" x="0.0" y="220" width="100" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                        <size key="customSize" width="100" height="100"/>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="SM0-Jg-CMr">
-                                        <rect key="frame" x="137.5" y="220" width="100" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                        <size key="customSize" width="100" height="100"/>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="B36-8D-Ts2">
-                                        <rect key="frame" x="275" y="220" width="100" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                        <size key="customSize" width="100" height="100"/>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UNR-3d-I8G" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2832.8000000000002" y="580.65967016491754"/>
+            <point key="canvasLocation" x="2021.5999999999999" y="580.65967016491754"/>
         </scene>
         <!--熱門行程介紹-->
         <scene sceneID="SYy-8b-dfn">
@@ -884,7 +728,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zzg-dQ-ELE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3534" y="581"/>
+            <point key="canvasLocation" x="3534" y="584"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PqR-r5-rb9">
