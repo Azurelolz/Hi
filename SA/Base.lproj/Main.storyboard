@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -612,12 +613,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="about" translatesAutoresizingMaskIntoConstraints="NO" id="vw9-ef-svL">
-                                <rect key="frame" x="67" y="168" width="240" height="331"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about" translatesAutoresizingMaskIntoConstraints="NO" id="vw9-ef-svL">
+                                <rect key="frame" x="61" y="180.5" width="252" height="306"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vw9-ef-svL" firstAttribute="centerY" secondItem="olM-ph-Cuj" secondAttribute="centerY" id="5rO-8R-qaP"/>
+                            <constraint firstItem="vw9-ef-svL" firstAttribute="centerY" secondItem="olM-ph-Cuj" secondAttribute="centerY" id="QK1-jd-E2g"/>
+                            <constraint firstItem="vw9-ef-svL" firstAttribute="centerX" secondItem="olM-ph-Cuj" secondAttribute="centerX" id="Srb-WZ-4Rx"/>
+                            <constraint firstItem="vw9-ef-svL" firstAttribute="centerX" secondItem="olM-ph-Cuj" secondAttribute="centerX" id="qMu-jj-aNY"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yWS-PV-oRg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -636,41 +642,99 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3xx-8c-evi">
-                                <rect key="frame" x="0.0" y="252" width="375" height="162"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly2" translatesAutoresizingMaskIntoConstraints="NO" id="8Oy-WG-NfU">
                                 <rect key="frame" x="253" y="487" width="122" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="DJY-LP-hx0">
-                                <rect key="frame" x="277" y="64" width="98" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly3" translatesAutoresizingMaskIntoConstraints="NO" id="vAi-AQ-5gU">
                                 <rect key="frame" x="0.0" y="542" width="154" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="熱門行程套餐瀏覽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DoR-Hw-YgV">
-                                <rect key="frame" x="66" y="157" width="243" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="At9-Yu-kDo">
-                                <rect key="frame" x="157" y="438" width="61" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="確認"/>
-                                <connections>
-                                    <segue destination="AMr-tl-OgR" kind="show" id="BaZ-RF-poD"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="k0Z-Gs-yaL">
+                                <rect key="frame" x="16" y="120" width="343" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wco-NY-WFz">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="G8a-hD-zGi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                        <state key="normal" title="請選擇一個區域">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handleSelection:" destination="xkr-jh-iQE" eventType="touchUpInside" id="hdH-YG-6zc"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Me-db-Vna">
+                                        <rect key="frame" x="0.0" y="-120" width="343" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="dKd-Bx-JSH"/>
+                                        </constraints>
+                                        <state key="normal" title="北部"/>
+                                        <connections>
+                                            <action selector="cityTapped:" destination="xkr-jh-iQE" eventType="touchUpInside" id="fVG-zl-qa0"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQ5-yr-OX4">
+                                        <rect key="frame" x="0.0" y="-120" width="343" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="8hJ-UU-EaV"/>
+                                        </constraints>
+                                        <state key="normal" title="中部"/>
+                                        <connections>
+                                            <action selector="cityTapped:" destination="xkr-jh-iQE" eventType="touchUpInside" id="rzK-3Z-jYp"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Iw-0E-cxu">
+                                        <rect key="frame" x="0.0" y="-120" width="343" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="282-cG-65b"/>
+                                        </constraints>
+                                        <state key="normal" title="南部"/>
+                                        <connections>
+                                            <action selector="cityTapped:" destination="xkr-jh-iQE" eventType="touchUpInside" id="thX-wk-1ox"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAX-JA-7aX">
+                                        <rect key="frame" x="0.0" y="-120" width="343" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Lgi-zv-rkX"/>
+                                        </constraints>
+                                        <state key="normal" title="東部"/>
+                                        <connections>
+                                            <action selector="cityTapped:" destination="xkr-jh-iQE" eventType="touchUpInside" id="MhX-4W-Lgg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="VAX-JA-7aX" secondAttribute="trailing" id="0gU-yh-UVS"/>
+                                    <constraint firstItem="VAX-JA-7aX" firstAttribute="leading" secondItem="k0Z-Gs-yaL" secondAttribute="leading" id="4Fb-De-PTF"/>
+                                    <constraint firstAttribute="trailing" secondItem="mQ5-yr-OX4" secondAttribute="trailing" id="6g7-ix-kGM"/>
+                                    <constraint firstItem="9Iw-0E-cxu" firstAttribute="leading" secondItem="k0Z-Gs-yaL" secondAttribute="leading" id="F1A-yS-bCK"/>
+                                    <constraint firstItem="7Me-db-Vna" firstAttribute="leading" secondItem="k0Z-Gs-yaL" secondAttribute="leading" id="WHn-TH-7Uk"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Me-db-Vna" secondAttribute="trailing" id="da7-7a-W9Y"/>
+                                    <constraint firstAttribute="trailing" secondItem="9Iw-0E-cxu" secondAttribute="trailing" id="dlV-Bu-9jz"/>
+                                    <constraint firstAttribute="trailing" secondItem="wco-NY-WFz" secondAttribute="trailing" id="it5-Dm-B44"/>
+                                    <constraint firstItem="wco-NY-WFz" firstAttribute="leading" secondItem="k0Z-Gs-yaL" secondAttribute="leading" id="nVO-hC-HEt"/>
+                                    <constraint firstItem="mQ5-yr-OX4" firstAttribute="leading" secondItem="k0Z-Gs-yaL" secondAttribute="leading" id="rf4-q1-kbV"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.13366030803712936" green="0.57196987351259243" blue="1" alpha="0.23948523116438356" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="k0Z-Gs-yaL" firstAttribute="leading" secondItem="AEq-Ze-JWf" secondAttribute="leadingMargin" id="G7r-Og-Lgf"/>
+                            <constraint firstItem="k0Z-Gs-yaL" firstAttribute="top" secondItem="6o9-Dn-KQX" secondAttribute="bottom" constant="100" id="RdH-KA-pc2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="k0Z-Gs-yaL" secondAttribute="trailing" id="Wev-oS-7vg"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="cityButtons" destination="7Me-db-Vna" collectionClass="NSMutableArray" id="ubj-v2-agz"/>
+                        <outletCollection property="cityButtons" destination="mQ5-yr-OX4" collectionClass="NSMutableArray" id="Cvm-JX-2n9"/>
+                        <outletCollection property="cityButtons" destination="9Iw-0E-cxu" collectionClass="NSMutableArray" id="1V9-If-Sei"/>
+                        <outletCollection property="cityButtons" destination="VAX-JA-7aX" collectionClass="NSMutableArray" id="HvU-Q0-Fue"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gId-2e-YTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -962,7 +1026,6 @@
         <image name="about" width="252" height="306"/>
         <image name="aboutus" width="450" height="262"/>
         <image name="background" width="375" height="667"/>
-        <image name="butterfly" width="3804" height="3632"/>
         <image name="butterfly2" width="600" height="600"/>
         <image name="butterfly3" width="480" height="538"/>
         <image name="create" width="512" height="512"/>
