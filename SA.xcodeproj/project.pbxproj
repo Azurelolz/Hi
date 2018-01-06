@@ -30,7 +30,6 @@
 		74AD62CB1FF7934200FA686B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AD62C91FF7934200FA686B /* LaunchScreen.storyboard */; };
 		74AD62D61FF7934200FA686B /* SATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD62D51FF7934200FA686B /* SATests.swift */; };
 		74AD62E11FF7934200FA686B /* SAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD62E01FF7934200FA686B /* SAUITests.swift */; };
-		FEE8EA8F20000213000BCC53 /* HotScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE8EA8E20000213000BCC53 /* HotScheduleViewController.swift */; };
 		FEE8EA912000A355000BCC53 /* HotScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE8EA902000A355000BCC53 /* HotScheduleView.swift */; };
 		FEE8EA932000AB08000BCC53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEE8EA922000AB08000BCC53 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -87,7 +86,6 @@
 		A3968152008B3EC93E31DC59 /* Pods-SAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAUITests/Pods-SAUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D66BC77D85731B8F09896A05 /* Pods-SA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SA.release.xcconfig"; path = "Pods/Target Support Files/Pods-SA/Pods-SA.release.xcconfig"; sourceTree = "<group>"; };
 		DDE6ADC6AE272E752C3DCDF8 /* Pods_SATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEE8EA8E20000213000BCC53 /* HotScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotScheduleViewController.swift; sourceTree = "<group>"; };
 		FEE8EA902000A355000BCC53 /* HotScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotScheduleView.swift; sourceTree = "<group>"; };
 		FEE8EA922000AB08000BCC53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FF664472E60A7BFA4FBE4AE7 /* Pods_SA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,7 +164,6 @@
 				747D90471FF7AEEC003E8742 /* MyScheduleViewController.swift */,
 				FEE8EA922000AB08000BCC53 /* GoogleService-Info.plist */,
 				747D904D1FF7AF73003E8742 /* ScheduleIntroduceViewController.swift */,
-				FEE8EA8E20000213000BCC53 /* HotScheduleViewController.swift */,
 				FEE8EA902000A355000BCC53 /* HotScheduleView.swift */,
 			);
 			path = SA;
@@ -509,7 +506,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE8EA8F20000213000BCC53 /* HotScheduleViewController.swift in Sources */,
 				747D90441FF7AE99003E8742 /* AttractionsViewController.swift in Sources */,
 				747D90501FF7AFAC003E8742 /* DoneViewController.swift in Sources */,
 				747D90381FF7AD7D003E8742 /* LoginViewController.swift in Sources */,
