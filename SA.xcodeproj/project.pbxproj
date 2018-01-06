@@ -34,6 +34,7 @@
 		FEE8EA881FFD56F8000BCC53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */; };
 		FEE8EA891FFD56F8000BCC53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */; };
 		FEE8EA8F20000213000BCC53 /* HotScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE8EA8E20000213000BCC53 /* HotScheduleViewController.swift */; };
+		FEE8EA912000A355000BCC53 /* HotScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE8EA902000A355000BCC53 /* HotScheduleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		DDE6ADC6AE272E752C3DCDF8 /* Pods_SATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FEE8EA8E20000213000BCC53 /* HotScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotScheduleViewController.swift; sourceTree = "<group>"; };
+		FEE8EA902000A355000BCC53 /* HotScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotScheduleView.swift; sourceTree = "<group>"; };
 		FF664472E60A7BFA4FBE4AE7 /* Pods_SA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -167,6 +169,7 @@
 				747D904D1FF7AF73003E8742 /* ScheduleIntroduceViewController.swift */,
 				FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */,
 				FEE8EA8E20000213000BCC53 /* HotScheduleViewController.swift */,
+				FEE8EA902000A355000BCC53 /* HotScheduleView.swift */,
 			);
 			path = SA;
 			sourceTree = "<group>";
@@ -520,6 +523,7 @@
 				747D90401FF7AE31003E8742 /* DateViewController.swift in Sources */,
 				74AD62C11FF7934200FA686B /* AppDelegate.swift in Sources */,
 				747D90461FF7AEB5003E8742 /* FoodViewController.swift in Sources */,
+				FEE8EA912000A355000BCC53 /* HotScheduleView.swift in Sources */,
 				749E5A931FFA6D230030F6E6 /* AttractionsIntroduceViewController.swift in Sources */,
 				747D90481FF7AEEC003E8742 /* MyScheduleViewController.swift in Sources */,
 				747D903A1FF7ADAD003E8742 /* RegisterViewController.swift in Sources */,
