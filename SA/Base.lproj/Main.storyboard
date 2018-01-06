@@ -620,7 +620,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about" translatesAutoresizingMaskIntoConstraints="NO" id="vw9-ef-svL">
-                                <rect key="frame" x="61" y="180.5" width="252" height="306"/>
+                                <rect key="frame" x="61.5" y="180.5" width="252" height="306"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1801,6 +1801,6 @@
         <image name="高雄" width="900" height="600"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hro-Fa-8bn"/>
+        <segue reference="DvD-SA-zA0"/>
     </inferredMetricsTieBreakers>
 </document>
