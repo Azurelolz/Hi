@@ -663,17 +663,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2St-Gz-RaV">
-                                <rect key="frame" x="113" y="134" width="148" height="234"/>
+                                <rect key="frame" x="84" y="140" width="206.5" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="請選擇區域" borderStyle="roundedRect" textAlignment="center" minimumFontSize="32" translatesAutoresizingMaskIntoConstraints="NO" id="xzx-1a-S0z">
-                                        <rect key="frame" x="0.0" y="0.0" width="148" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="請選擇區域" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hx6-MM-11z">
+                                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="49"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wW-I3-lZX">
-                                        <rect key="frame" x="0.0" y="34" width="148" height="50"/>
+                                        <rect key="frame" x="0.0" y="49" width="206.5" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="snu-aZ-9jR"/>
                                         </constraints>
@@ -684,7 +684,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGs-Lj-52b">
-                                        <rect key="frame" x="0.0" y="84" width="148" height="50"/>
+                                        <rect key="frame" x="0.0" y="99" width="206.5" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="hhA-Wm-16P"/>
                                         </constraints>
@@ -692,7 +692,7 @@
                                         <state key="normal" title="中部"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zb9-Je-NE3">
-                                        <rect key="frame" x="0.0" y="134" width="148" height="50"/>
+                                        <rect key="frame" x="0.0" y="149" width="206.5" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="oKF-FU-pSv"/>
                                         </constraints>
@@ -700,7 +700,7 @@
                                         <state key="normal" title="南部"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWL-52-7bO">
-                                        <rect key="frame" x="0.0" y="184" width="148" height="50"/>
+                                        <rect key="frame" x="0.0" y="199" width="206.5" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="thT-3d-lcn"/>
                                         </constraints>
