@@ -25,6 +25,7 @@ class DoneViewController: UIViewController {
         mapItem.name = "目標地點"
         mapItem.openInMaps(launchOptions: options)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
