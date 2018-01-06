@@ -30,9 +30,7 @@
 		74AD62CB1FF7934200FA686B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AD62C91FF7934200FA686B /* LaunchScreen.storyboard */; };
 		74AD62D61FF7934200FA686B /* SATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD62D51FF7934200FA686B /* SATests.swift */; };
 		74AD62E11FF7934200FA686B /* SAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD62E01FF7934200FA686B /* SAUITests.swift */; };
-		FEE8EA871FFD56F8000BCC53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */; };
-		FEE8EA881FFD56F8000BCC53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */; };
-		FEE8EA891FFD56F8000BCC53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */; };
+		9786A1BA2000A4DA00E06B18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9786A1B92000A4DA00E06B18 /* GoogleService-Info.plist */; };
 		FEE8EA8F20000213000BCC53 /* HotScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE8EA8E20000213000BCC53 /* HotScheduleViewController.swift */; };
 		FEE8EA912000A355000BCC53 /* HotScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE8EA902000A355000BCC53 /* HotScheduleView.swift */; };
 /* End PBXBuildFile section */
@@ -86,10 +84,10 @@
 		74AD62DC1FF7934200FA686B /* SAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AD62E01FF7934200FA686B /* SAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAUITests.swift; sourceTree = "<group>"; };
 		74AD62E21FF7934200FA686B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9786A1B92000A4DA00E06B18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A3968152008B3EC93E31DC59 /* Pods-SAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAUITests/Pods-SAUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D66BC77D85731B8F09896A05 /* Pods-SA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SA.release.xcconfig"; path = "Pods/Target Support Files/Pods-SA/Pods-SA.release.xcconfig"; sourceTree = "<group>"; };
 		DDE6ADC6AE272E752C3DCDF8 /* Pods_SATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FEE8EA8E20000213000BCC53 /* HotScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotScheduleViewController.swift; sourceTree = "<group>"; };
 		FEE8EA902000A355000BCC53 /* HotScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotScheduleView.swift; sourceTree = "<group>"; };
 		FF664472E60A7BFA4FBE4AE7 /* Pods_SA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,8 +164,8 @@
 				749E5A941FFA6D3B0030F6E6 /* FoodIntroduceViewController.swift */,
 				747D904F1FF7AFAC003E8742 /* DoneViewController.swift */,
 				747D90471FF7AEEC003E8742 /* MyScheduleViewController.swift */,
+				9786A1B92000A4DA00E06B18 /* GoogleService-Info.plist */,
 				747D904D1FF7AF73003E8742 /* ScheduleIntroduceViewController.swift */,
-				FEE8EA861FFD56F8000BCC53 /* GoogleService-Info.plist */,
 				FEE8EA8E20000213000BCC53 /* HotScheduleViewController.swift */,
 				FEE8EA902000A355000BCC53 /* HotScheduleView.swift */,
 			);
@@ -332,7 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74AD62CB1FF7934200FA686B /* LaunchScreen.storyboard in Resources */,
-				FEE8EA871FFD56F8000BCC53 /* GoogleService-Info.plist in Resources */,
+				9786A1BA2000A4DA00E06B18 /* GoogleService-Info.plist in Resources */,
 				74AD62C81FF7934200FA686B /* Assets.xcassets in Resources */,
 				74AD62C61FF7934200FA686B /* Main.storyboard in Resources */,
 			);
@@ -342,7 +340,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE8EA881FFD56F8000BCC53 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +347,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE8EA891FFD56F8000BCC53 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +694,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.SA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -713,6 +710,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.SA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -729,6 +727,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.SATests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -746,6 +745,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.SATests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -762,6 +762,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SAUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.SAUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -778,6 +779,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SAUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.SAUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
