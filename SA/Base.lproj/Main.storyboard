@@ -315,6 +315,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.69126588106155396" green="0.78933852910995483" blue="0.93435126543045044" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <segue destination="F3R-lW-UOa" kind="push" id="8U1-BG-OGk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2cV-dY-lFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -591,6 +594,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="abL-uf-rce"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vjh-fk-bra" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -971,6 +975,7 @@
         <image name="register" width="44" height="84"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="s7S-QA-p7H"/>
+        <segue reference="8U1-BG-OGk"/>
+        <segue reference="hro-Fa-8bn"/>
     </inferredMetricsTieBreakers>
 </document>
