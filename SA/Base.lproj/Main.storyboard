@@ -69,16 +69,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dan-HX-3da">
-                                <rect key="frame" x="115" y="479" width="145" height="81"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Bm-c4-wM5">
+                                <rect key="frame" x="112" y="489" width="150" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <inset key="contentEdgeInsets" minX="3" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="登入"/>
                                 <connections>
-                                    <action selector="showMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="qrS-Y2-kgF"/>
-                                    <segue destination="YT8-P0-oXA" kind="show" id="s7S-QA-p7H"/>
+                                    <action selector="showMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="GHo-z6-Bhz"/>
+                                    <segue destination="YT8-P0-oXA" kind="show" id="DvD-SA-zA0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -88,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="458" y="-150"/>
+            <point key="canvasLocation" x="456.80000000000001" y="-150.67466266866569"/>
         </scene>
         <!--註冊頁面-->
         <scene sceneID="V9b-W0-YHE">
@@ -955,6 +953,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8U1-BG-OGk"/>
-        <segue reference="s7S-QA-p7H"/>
+        <segue reference="DvD-SA-zA0"/>
     </inferredMetricsTieBreakers>
 </document>
