@@ -33,7 +33,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="帳號：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJz-sP-16j">
                                 <rect key="frame" x="16" y="361" width="97" height="21"/>
@@ -75,6 +75,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="登入"/>
                                 <connections>
+                                    <action selector="DoLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1QD-ee-oED"/>
                                     <action selector="showMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="GHo-z6-Bhz"/>
                                     <segue destination="YT8-P0-oXA" kind="show" id="DvD-SA-zA0"/>
                                 </connections>
@@ -83,6 +84,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="PJS-BR-Egw"/>
+                    <connections>
+                        <outlet property="login_button" destination="2Bm-c4-wM5" id="FZn-Ew-rkt"/>
+                        <outlet property="password_input" destination="MPf-rn-hG6" id="M6W-yI-bER"/>
+                        <outlet property="user_input" destination="VXJ-c2-9v4" id="iP9-3D-Iyk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -103,16 +109,16 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="justified" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XOB-wh-r79">
                                 <rect key="frame" x="97" y="305" width="244" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="justified" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DQr-cw-6Y2">
                                 <rect key="frame" x="97" y="372" width="244" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="justified" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AiA-dd-oAe">
                                 <rect key="frame" x="97" y="445" width="244" height="30"/>
@@ -313,9 +319,6 @@
                         </subviews>
                         <color key="backgroundColor" red="0.69126588106155396" green="0.78933852910995483" blue="0.93435126543045044" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <connections>
-                        <segue destination="F3R-lW-UOa" kind="push" id="8U1-BG-OGk"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2cV-dY-lFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -952,7 +955,6 @@
         <image name="register" width="44" height="84"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8U1-BG-OGk"/>
         <segue reference="DvD-SA-zA0"/>
     </inferredMetricsTieBreakers>
 </document>
