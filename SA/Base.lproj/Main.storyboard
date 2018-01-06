@@ -902,7 +902,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="基隆八斗子" translatesAutoresizingMaskIntoConstraints="NO" id="RqZ-Hy-HEW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="菁桐車站深旅行" translatesAutoresizingMaskIntoConstraints="NO" id="RqZ-Hy-HEW">
                                 <rect key="frame" x="67" y="96" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1330,11 +1330,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="彰化溪湖" translatesAutoresizingMaskIntoConstraints="NO" id="2yT-Dg-hxX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="台南1" translatesAutoresizingMaskIntoConstraints="NO" id="2yT-Dg-hxX">
                                 <rect key="frame" x="67" y="72" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="彰化大村" translatesAutoresizingMaskIntoConstraints="NO" id="SQn-dC-qcF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="台南2" translatesAutoresizingMaskIntoConstraints="NO" id="SQn-dC-qcF">
                                 <rect key="frame" x="67" y="269" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1342,17 +1342,17 @@
                                 <rect key="frame" x="67" y="471" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="彰化溪湖深旅行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6b-m5-OPU">
-                                <rect key="frame" x="67" y="222" width="122" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="台南知性拍照之旅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6b-m5-OPU">
+                                <rect key="frame" x="67" y="222" width="139" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="彰化大村知性之旅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6n-Sw-Vab">
-                                <rect key="frame" x="67" y="422" width="139" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="台南德陽艦/安平一日遊" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6n-Sw-Vab">
+                                <rect key="frame" x="67" y="422" width="179" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1367,11 +1367,17 @@
                                 <rect key="frame" x="242" y="217" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="點我查看"/>
+                                <connections>
+                                    <segue destination="ms3-7y-8Nc" kind="push" id="fUE-zL-rGR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGk-qh-50i">
                                 <rect key="frame" x="242" y="417" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="點我查看"/>
+                                <connections>
+                                    <segue destination="koK-us-t23" kind="push" id="gTs-JJ-Qr6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dG-yj-WEM">
                                 <rect key="frame" x="242" y="614" width="62" height="30"/>
@@ -1385,7 +1391,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JTf-fe-mZR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2793" y="1993"/>
+            <point key="canvasLocation" x="2792.8000000000002" y="1992.953523238381"/>
         </scene>
         <!--東部熱門行程-->
         <scene sceneID="l8l-uV-Wkv">
@@ -1456,6 +1462,111 @@
             </objects>
             <point key="canvasLocation" x="2793" y="2664"/>
         </scene>
+        <!--台南知性拍照之旅-->
+        <scene sceneID="gu3-Me-iKB">
+            <objects>
+                <viewController title="台南知性拍照之旅" id="ms3-7y-8Nc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JrC-3a-tVL"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Mc-qj-Ao9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qig-k9-ruW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="台南1" translatesAutoresizingMaskIntoConstraints="NO" id="vNH-AW-Lgg">
+                                <rect key="frame" x="67" y="96" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="資料來源 ：小兔小安的旅遊札記 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G0q-Ls-7gb">
+                                <rect key="frame" x="67" y="253" width="252" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRa-xV-sgD">
+                                <rect key="frame" x="67" y="282" width="240" height="308"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">第一站：司法博物館
+
+第二站：蝸牛巷
+
+第三站：蜂橙冰店
+
+第四站：納涼屋
+
+第五站：奇美博物館
+
+第六站：夜遊十鼓蜜糖工廠
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gjF-XA-Ldm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="um2-wM-bnZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3492" y="1993"/>
+        </scene>
+        <!--台南德陽艦/安平一日遊-->
+        <scene sceneID="T7M-UQ-hqb">
+            <objects>
+                <viewController title="台南德陽艦/安平一日遊" id="koK-us-t23" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VSu-Ux-3Ol"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tp5-r9-ivm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wIM-6u-DkQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="台南2" translatesAutoresizingMaskIntoConstraints="NO" id="0Wk-IJ-fOw">
+                                <rect key="frame" x="67" y="96" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="資料來源 ：小兔小安的旅遊札記 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mw0-1v-Wxc">
+                                <rect key="frame" x="67" y="253" width="252" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMT-Ln-XaS">
+                                <rect key="frame" x="67" y="282" width="240" height="308"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">第一站：德陽艦
+
+第二站：虱目魚主題館
+
+第三站：安平古堡
+
+第四站：納涼屋
+
+第五站：夕遊出張所
+
+第六站：安平豆花
+
+第七站：四草綠色隧道
+
+第八站：台江水上高腳屋</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jOw-NP-2sm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LQG-dw-LDk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4150" y="1993"/>
+        </scene>
     </scenes>
     <resources>
         <image name="101" width="1600" height="1062"/>
@@ -1471,6 +1582,8 @@
         <image name="plane" width="225" height="225"/>
         <image name="register" width="44" height="84"/>
         <image name="台中" width="1048" height="649"/>
+        <image name="台南1" width="630" height="450"/>
+        <image name="台南2" width="630" height="450"/>
         <image name="基隆八斗子" width="1034" height="693"/>
         <image name="彰化大村" width="662" height="446"/>
         <image name="彰化溪湖" width="1034" height="693"/>
