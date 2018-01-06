@@ -2,8 +2,8 @@
 //  HotScheduleViewController.swift
 //  SA
 //
-//  Created by 輔仁大學 on 2017/12/30.
-//  Copyright © 2017年 Seafood. All rights reserved.
+//  Created by 張昕暉 on 2018/1/6.
+//  Copyright © 2018年 Seafood. All rights reserved.
 //
 
 import UIKit
