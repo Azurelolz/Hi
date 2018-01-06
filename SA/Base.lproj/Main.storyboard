@@ -645,7 +645,7 @@
         <!--熱門行程-->
         <scene sceneID="j5K-X5-KCb">
             <objects>
-                <viewController title="熱門行程" id="xkr-jh-iQE" customClass="HotScheduleViewController" customModule="SA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="熱門行程" id="xkr-jh-iQE" customClass="HotScheduleView" customModule="SA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6o9-Dn-KQX"/>
                         <viewControllerLayoutGuide type="bottom" id="bwq-mJ-pX3"/>
@@ -955,6 +955,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8U1-BG-OGk"/>
-        <segue reference="hro-Fa-8bn"/>
+        <segue reference="xev-DM-liU"/>
     </inferredMetricsTieBreakers>
 </document>
