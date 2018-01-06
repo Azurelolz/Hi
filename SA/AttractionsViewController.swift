@@ -8,8 +8,24 @@
 
 import UIKit
 
-class AttractionsViewController: UIViewController {
+class AttractionsViewController: UIViewController, UIPickerViewDelegate , UIPickerViewDataSource {
+    
+    @IBOutlet var vehicle: UIPickerView!
 
+    let vehicles = ["汽車" , "機車" , "大眾交通工具", "腳踏車", "步行"]
+    
+    func numberOfComponents(in vehicle: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ vehicle: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return vehicles[row]
+    }
+    
+    func pickerView(_ vehicle: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return vehicles.count
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,8 +36,6 @@ class AttractionsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
     /*
     // MARK: - Navigation
 
