@@ -1987,10 +1987,9 @@
         <image name="高雄" width="900" height="600"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mGG-a2-xnC"/>
         <segue reference="gbr-Hf-U1f"/>
         <segue reference="NwT-dF-pSh"/>
         <segue reference="HuH-mm-3T5"/>
-        <segue reference="hro-Fa-8bn"/>
+        <segue reference="b8S-KZ-Z3M"/>
     </inferredMetricsTieBreakers>
 </document>
