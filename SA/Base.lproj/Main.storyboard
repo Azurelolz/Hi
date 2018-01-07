@@ -49,10 +49,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="WKB-dN-7CD">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="353"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8n-Ib-GgA">
                                 <rect key="frame" x="227" y="568" width="66" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -78,6 +74,10 @@
                                     <segue destination="YT8-P0-oXA" kind="show" id="DvD-SA-zA0"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="WKB-dN-7CD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="353"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -376,10 +376,10 @@
             </objects>
             <point key="canvasLocation" x="2834" y="-151"/>
         </scene>
-        <!--View Controller-->
+        <!--想去的景點-->
         <scene sceneID="fDY-v2-fH7">
             <objects>
-                <viewController id="mjg-tC-hca" sceneMemberID="viewController">
+                <viewController title="想去的景點" id="mjg-tC-hca" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OCQ-K4-TVJ"/>
                         <viewControllerLayoutGuide type="bottom" id="hvR-39-LeL"/>
@@ -402,32 +402,35 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="景點" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gzr-Hp-Wje">
-                                <rect key="frame" x="162" y="125" width="51" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R5q-ZU-UMX">
-                                <rect key="frame" x="0.0" y="163" width="375" height="162"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VpZ-yu-xMl">
-                                <rect key="frame" x="265" y="125" width="77" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="點我看介紹"/>
-                                <connections>
-                                    <segue destination="mpo-71-pkS" kind="show" id="XKd-jb-56U"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ek6-Pt-EYl">
-                                <rect key="frame" x="153" y="599" width="91" height="48"/>
+                                <rect key="frame" x="142" y="599" width="91" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="下一步"/>
                                 <connections>
                                     <segue destination="hT7-vV-q9T" kind="show" id="bjq-R1-6aD"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="right" translatesAutoresizingMaskIntoConstraints="NO" id="XCX-xy-1K5">
+                                <rect key="frame" x="257" y="471" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CS6-k0-R7A">
+                                <rect key="frame" x="126" y="478" width="123" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="加入口袋名單"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="left" translatesAutoresizingMaskIntoConstraints="NO" id="sA8-vR-Lmh">
+                                <rect key="frame" x="68" y="471" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKm-TZ-ct9">
+                                <rect key="frame" x="37" y="138" width="300" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="101"/>
+                                <connections>
+                                    <segue destination="mpo-71-pkS" kind="show" id="S4q-Qi-5cF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -507,35 +510,40 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSO-1P-CvF">
-                                <rect key="frame" x="142" y="64" width="31" height="36"/>
+                                <rect key="frame" x="142" y="71" width="31" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="天" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smh-vG-Jht">
-                                <rect key="frame" x="207" y="64" width="42" height="36"/>
+                                <rect key="frame" x="202" y="71" width="42" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YhH-QR-nvk">
-                                <rect key="frame" x="0.0" y="137" width="375" height="162"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pF-Py-Hua">
-                                <rect key="frame" x="270" y="99" width="77" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="left" translatesAutoresizingMaskIntoConstraints="NO" id="pjL-L2-d3Y">
+                                <rect key="frame" x="68" y="471" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="點我看介紹"/>
-                                <connections>
-                                    <segue destination="Lff-KN-ilZ" kind="show" id="m0d-S7-4y7"/>
-                                </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="right" translatesAutoresizingMaskIntoConstraints="NO" id="iAC-Tu-72c">
+                                <rect key="frame" x="257" y="471" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qS-s4-H36">
+                                <rect key="frame" x="126" y="478" width="123" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="加入口袋名單"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWk-Ix-91P">
-                                <rect key="frame" x="321" y="629" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbZ-Qt-s3z">
+                                <rect key="frame" x="37" y="138" width="300" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="test"/>
+                                <state key="normal" title="Button" image="Fries"/>
+                                <connections>
+                                    <segue destination="Lff-KN-ilZ" kind="show" id="CVm-Tz-17a"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.58974405736106961" blue="0.54751102635472704" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -543,7 +551,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aBp-wi-K9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5346" y="-151"/>
+            <point key="canvasLocation" x="5361" y="-151"/>
         </scene>
         <!--確認行程-->
         <scene sceneID="yeW-cH-wAN">
@@ -1883,6 +1891,7 @@
     <resources>
         <image name="101" width="1600" height="1062"/>
         <image name="Beach" width="3840" height="2160"/>
+        <image name="Fries" width="477" height="355"/>
         <image name="Logo" width="800" height="600"/>
         <image name="about" width="252" height="306"/>
         <image name="aboutus" width="450" height="262"/>
@@ -1891,8 +1900,10 @@
         <image name="butterfly3" width="480" height="538"/>
         <image name="create" width="512" height="512"/>
         <image name="hot" width="225" height="225"/>
+        <image name="left" width="512" height="512"/>
         <image name="plane" width="225" height="225"/>
         <image name="register" width="44" height="84"/>
+        <image name="right" width="500" height="391"/>
         <image name="台中" width="1048" height="649"/>
         <image name="台南1" width="630" height="450"/>
         <image name="台南2" width="630" height="450"/>
@@ -1907,6 +1918,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="NwT-dF-pSh"/>
-        <segue reference="hro-Fa-8bn"/>
+        <segue reference="DvD-SA-zA0"/>
     </inferredMetricsTieBreakers>
 </document>
