@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="52G-lK-Ppx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="52G-lK-Ppx">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -434,7 +434,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="完成"/>
                                 <connections>
-                                    <segue destination="YT8-P0-oXA" kind="show" id="hro-Fa-8bn"/>
+                                    <segue destination="YT8-P0-oXA" kind="show" id="7Zm-p8-HoJ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="起始日期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0J0-Tg-Mc1">
@@ -502,18 +502,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5IU-RX-KRO">
-                                <rect key="frame" x="303" y="165" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="修改"/>
-                                <connections>
-                                    <segue destination="b2J-SZ-ccm" kind="show" id="HuH-mm-3T5"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6C-nj-MH5">
                                 <rect key="frame" x="303" y="226" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="修改"/>
+                                <connections>
+                                    <segue destination="55S-77-nzH" kind="show" id="TZK-S3-MFc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vS-0b-gqY">
                                 <rect key="frame" x="178" y="290" width="31" height="30"/>
@@ -565,6 +560,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="abL-uf-rce"/>
                     <connections>
+                        <outlet property="tripName" destination="QP1-4E-6wr" id="aTI-6s-PbJ"/>
                         <segue destination="7Ba-zv-Zh7" kind="push" identifier="finish" id="NwT-dF-pSh"/>
                     </connections>
                 </viewController>
@@ -2012,7 +2008,7 @@
                                 <rect key="frame" x="106" y="502" width="162" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="登入/確認">
+                                <state key="normal" title="登入/註冊">
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -2091,11 +2087,12 @@
         <image name="高雄" width="900" height="600"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="H0c-2b-Xe2"/>
-        <segue reference="Xl8-at-lXt"/>
+        <segue reference="o6n-vT-ClP"/>
+        <segue reference="5mG-Xb-3iS"/>
         <segue reference="gbr-Hf-U1f"/>
-        <segue reference="nGb-VO-ZNa"/>
-        <segue reference="MCw-Cb-m2H"/>
+        <segue reference="NwT-dF-pSh"/>
+        <segue reference="TZK-S3-MFc"/>
+        <segue reference="L0P-Eh-w69"/>
         <segue reference="b8S-KZ-Z3M"/>
     </inferredMetricsTieBreakers>
 </document>

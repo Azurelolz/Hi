@@ -10,6 +10,7 @@ import UIKit
 import MapKit
 
 class DoneViewController: UIViewController {
+    @IBOutlet var tripName: UITextField!
     @IBAction func showMap(_ sender: Any) {
         let latitude:CLLocationDegrees = 25.035430
         let longtitude:CLLocationDegrees = 121.43246
@@ -28,7 +29,7 @@ class DoneViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tripName.placeholder = "例如：我的行程"
         // Do any additional setup after loading the view.
     }
 

@@ -9,7 +9,7 @@
 import UIKit
 import FirebaseAuth
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextViewDelegate{
     
     @IBOutlet weak var passwordText: UITextField!
     @IBOutlet weak var emailText: UITextField!
@@ -76,9 +76,9 @@ class ViewController: UIViewController {
         }
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        emailText.placeholder = "ex:123@test.com"
         // Do any additional setup after loading the view, typically from a nib.
     }
     
