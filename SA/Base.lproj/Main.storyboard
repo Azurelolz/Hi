@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="52G-lK-Ppx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="52G-lK-Ppx">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -531,6 +531,11 @@
                                 <connections>
                                     <segue destination="Lff-KN-ilZ" kind="show" id="m0d-S7-4y7"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWk-Ix-91P">
+                                <rect key="frame" x="321" y="629" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="test"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.58974405736106961" blue="0.54751102635472704" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1901,8 +1906,7 @@
         <image name="高雄" width="900" height="600"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qdj-Rs-e5K"/>
-        <segue reference="nGb-VO-ZNa"/>
+        <segue reference="NwT-dF-pSh"/>
         <segue reference="hro-Fa-8bn"/>
     </inferredMetricsTieBreakers>
 </document>
