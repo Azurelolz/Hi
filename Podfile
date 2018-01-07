@@ -6,6 +6,7 @@ target 'SA' do
   use_frameworks!
 
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
   target 'SATests' do
     inherit! :search_paths

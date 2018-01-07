@@ -7,13 +7,20 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class MainViewController: UIViewController {
 
+    @IBAction func action(_ sender: UIButton) {
+        
+        try! Auth.auth().signOut()
+        performSegue(withIdentifier: "segue2", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        Auth.auth().currentUser?.email
+       
     }
 
     override func didReceiveMemoryWarning() {
