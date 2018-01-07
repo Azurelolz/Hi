@@ -10,7 +10,6 @@
 		2BA21B6ED1192F49D7A10172 /* Pods_SAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D19054C3BE7FD1F4D38CE61 /* Pods_SAUITests.framework */; };
 		42C63D397B2F94C80B7D7106 /* Pods_SA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF664472E60A7BFA4FBE4AE7 /* Pods_SA.framework */; };
 		67138F6E3368D0A963559921 /* Pods_SATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE6ADC6AE272E752C3DCDF8 /* Pods_SATests.framework */; };
-		7416F8A620012B5C003572B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7416F8A520012B5C003572B2 /* GoogleService-Info.plist */; };
 		747D90381FF7AD7D003E8742 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D90371FF7AD7D003E8742 /* LoginViewController.swift */; };
 		747D903A1FF7ADAD003E8742 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D90391FF7ADAD003E8742 /* RegisterViewController.swift */; };
 		747D903C1FF7ADE4003E8742 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D903B1FF7ADE4003E8742 /* MainViewController.swift */; };
@@ -30,6 +29,7 @@
 		74AD62D61FF7934200FA686B /* SATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD62D51FF7934200FA686B /* SATests.swift */; };
 		74AD62E11FF7934200FA686B /* SAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD62E01FF7934200FA686B /* SAUITests.swift */; };
 		FE0BEC0F200209710024F76B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0BEC0D200209710024F76B /* Main.storyboard */; };
+		FE50D25520021BF30021268D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE50D25420021BF30021268D /* GoogleService-Info.plist */; };
 		FEE8EA912000A355000BCC53 /* HotScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE8EA902000A355000BCC53 /* HotScheduleView.swift */; };
 		FEF2F5BD2000CCAD00076919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF2F5BC2000CCAA00076919 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -57,7 +57,6 @@
 		263AA342C1B03CD7CE59B257 /* Pods-SATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SATests/Pods-SATests.debug.xcconfig"; sourceTree = "<group>"; };
 		5733A857C84E24325730A609 /* Pods-SATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SATests/Pods-SATests.release.xcconfig"; sourceTree = "<group>"; };
 		704E35691FE62001C6CAA44D /* Pods-SA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SA/Pods-SA.debug.xcconfig"; sourceTree = "<group>"; };
-		7416F8A520012B5C003572B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		747D90371FF7AD7D003E8742 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		747D90391FF7ADAD003E8742 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		747D903B1FF7ADE4003E8742 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +85,7 @@
 		D66BC77D85731B8F09896A05 /* Pods-SA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SA.release.xcconfig"; path = "Pods/Target Support Files/Pods-SA/Pods-SA.release.xcconfig"; sourceTree = "<group>"; };
 		DDE6ADC6AE272E752C3DCDF8 /* Pods_SATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0BEC0E200209710024F76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE50D25420021BF30021268D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FEE8EA902000A355000BCC53 /* HotScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotScheduleView.swift; sourceTree = "<group>"; };
 		FEF2F5BC2000CCAA00076919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF664472E60A7BFA4FBE4AE7 /* Pods_SA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,11 +160,11 @@
 				749E5A921FFA6D230030F6E6 /* AttractionsIntroduceViewController.swift */,
 				747D90451FF7AEB5003E8742 /* FoodViewController.swift */,
 				749E5A941FFA6D3B0030F6E6 /* FoodIntroduceViewController.swift */,
+				FE50D25420021BF30021268D /* GoogleService-Info.plist */,
 				747D904F1FF7AFAC003E8742 /* DoneViewController.swift */,
 				747D90471FF7AEEC003E8742 /* MyScheduleViewController.swift */,
 				747D904D1FF7AF73003E8742 /* ScheduleIntroduceViewController.swift */,
 				FEE8EA902000A355000BCC53 /* HotScheduleView.swift */,
-				7416F8A520012B5C003572B2 /* GoogleService-Info.plist */,
 			);
 			path = SA;
 			sourceTree = "<group>";
@@ -327,7 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74AD62CB1FF7934200FA686B /* LaunchScreen.storyboard in Resources */,
-				7416F8A620012B5C003572B2 /* GoogleService-Info.plist in Resources */,
+				FE50D25520021BF30021268D /* GoogleService-Info.plist in Resources */,
 				FEF2F5BD2000CCAD00076919 /* Assets.xcassets in Resources */,
 				FE0BEC0F200209710024F76B /* Main.storyboard in Resources */,
 			);
