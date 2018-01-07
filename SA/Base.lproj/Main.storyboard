@@ -514,6 +514,9 @@
                                 <rect key="frame" x="303" y="226" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="修改"/>
+                                <connections>
+                                    <segue destination="55S-77-nzH" kind="show" id="ocu-ri-702"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vS-0b-gqY">
                                 <rect key="frame" x="178" y="290" width="31" height="30"/>
@@ -1055,7 +1058,7 @@
                                     <segue destination="RWs-me-DZW" kind="show" id="Xl8-at-lXt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="行程清單" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vkp-AM-KDM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="我的行程" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vkp-AM-KDM">
                                 <rect key="frame" x="70" y="28" width="241" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
@@ -1276,6 +1279,9 @@
                                 <rect key="frame" x="156" y="183" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="一蘭拉麵"/>
+                                <connections>
+                                    <segue destination="Lff-KN-ilZ" kind="show" id="ec0-Tu-3Dc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2093,9 +2099,11 @@
     <inferredMetricsTieBreakers>
         <segue reference="H0c-2b-Xe2"/>
         <segue reference="Xl8-at-lXt"/>
+        <segue reference="ec0-Tu-3Dc"/>
         <segue reference="gbr-Hf-U1f"/>
-        <segue reference="nGb-VO-ZNa"/>
-        <segue reference="MCw-Cb-m2H"/>
-        <segue reference="b8S-KZ-Z3M"/>
+        <segue reference="NwT-dF-pSh"/>
+        <segue reference="ocu-ri-702"/>
+        <segue reference="L0P-Eh-w69"/>
+        <segue reference="hro-Fa-8bn"/>
     </inferredMetricsTieBreakers>
 </document>
