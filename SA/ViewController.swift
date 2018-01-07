@@ -10,7 +10,7 @@ import UIKit
 import FirebaseAuth
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var passwordText: UITextField!
     @IBOutlet weak var emailText: UITextField!
     @IBOutlet weak var segmentControl: UISegmentedControl!
@@ -61,22 +61,17 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func showMessage() {
-        let alertController = UIAlertController(title: "Welcome to Travelers", message: "準備好了嗎？", preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "開始旅程", style: UIAlertActionStyle.default, handler: nil))
-        present(alertController, animated: true, completion: nil)
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
